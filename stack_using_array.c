@@ -38,6 +38,7 @@ void push(Stack *stc, int val)
     assert(!is_full(stc)); // show an error when the stack reach max size 'cause cannot add more elements
     stc->arr[stc->size++] = val; // assign value to the index and increase the size of stack
 }
+// explaination for push function: https://drive.google.com/file/d/1cGrtm6Uog_FbGxYPNhuqR0R6k51SEHyv/view?usp=sharing
 
 // remove an element from the stack
 int pop(Stack *stc)
